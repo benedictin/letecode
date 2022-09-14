@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+}
+.head{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.begin a{
+   margin: auto;
+   width: 180px;
+   display: block;
+   padding: 5px;
+   
+}
