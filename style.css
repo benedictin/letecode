@@ -1,14 +1,221 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
 body{
-    background-color: black;
+  background-color: #0e1012;
+  color: #ffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+  background-color: #0e1012;
+}
+h6 a{
+  color: #a0aaba;
+}
+p{
+  color: #a0aaba;
+}
+h6 a:hover{
+  text-decoration: none;
+  color: #a0aaba;
+}
+.course a:hover{
+  text-decoration: none;
+  color: #007afc;
+}
+.course a{
+  color: #ffff;
+}
+.submit{
+  border-radius: 20px;
+  background-color: #007afc;
+  color: #ffff;
+  padding: 3px 9px;
+}
+.submit a:focus{
+  outline: none;
 }
 .head{
-    margin-top: 100px;
-    margin-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
+.head h1{
+  font-size: 45px;
+  font-weight: bold;
+}
+
 .begin a{
-   margin: auto;
-   width: 180px;
-   display: block;
-   padding: 5px;
-   
+  margin: auto;
+  width: 180px;
+  display: block;
+  padding: 5px;
+  border-radius: 20px;
+  font-size: 17px;
+}
+.begin{
+  margin-top: 20px; 
+}
+
+.navbar-light .navbar-nav .active {
+  border-bottom: 2px solid #37587b;
+  }
+  
+.navbar-light .navbar-nav .nav-link {
+  color: #37587b;
+}
+ 
+.dropdown-hover {
+ float: left;
+  overflow: hidden;
+}
+  
+.dropdown-hover-content {
+  display: none;
+  position: absolute;
+  margin-top: 2px;
+  background-color:#161a1d;
+  left: 0;
+  right: 0;
+  padding: 27px 14px 0;
+  z-index: 4;
+  border-radius: 10px;
+    
+}
+  
+.dropdown-hover-content .row {
+  width: 100%;
+}
+  
+.dropdown-hover-content a.dropdown-item {
+  font-size: 14px;
+}
+  
+.dropdown-hover:hover .dropdown-hover-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.btn{
+  border-radius: 20px;
+}
+.texte{
+  padding: 5px;
+}
+.image img{
+  border-radius: 10px;
+}
+#slider {
+  position: relative;
+  width: 65%;
+  height: 32vw;
+  margin: 150px auto;
+  font-family: 'Helvetica Neue', sans-serif;
+  perspective: 1400px;
+  transform-style: preserve-3d;
+  margin-top: 20px;
+}
+input[type=radio] {
+  position: relative;
+  top: 108%;
+  left: 50%;
+  width: 18px;
+  height: 18px;
+  margin: 0 15px 0 0;
+  opacity: 0.4;
+  transform: translateX(-83px);
+  cursor: pointer;
+}
+
+
+input[type=radio]:nth-child(5) {
+  margin-right: 0px;
+}
+
+input[type=radio]:checked {
+  opacity: 1;
+}
+#slider label,
+#slider label img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+  border-radius: 3px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 400ms ease;
+}
+#slider label img{
+  border-radius: 10px;
+}
+#s1:checked ~ #slide1,
+ #s2:checked ~ #slide2,
+  #s3:checked ~ #slide3,
+   #s4:checked ~ #slide4,
+    #s5:checked ~ #slide5 {
+  box-shadow: 0 13px 26px rgba(0,0,0, 0.3), 0 12px 6px rgba(0,0,0, 0.2);
+  transform: translate3d(0%, 0, 0px);
+
+}
+
+#s1:checked ~ #slide2,
+ #s2:checked ~ #slide3,
+  #s3:checked ~ #slide4,
+   #s4:checked ~ #slide5,
+    #s5:checked ~ #slide1 {
+  box-shadow: 0 6px 10px rgba(0,0,0, 0.3), 0 2px 2px rgba(0,0,0, 0.2);
+  transform: translate3d(20%, 0, -100px);
+}
+#s1:checked ~ #slide3,
+ #s2:checked ~ #slide4,
+  #s3:checked ~ #slide5,
+   #s4:checked ~ #slide1,
+    #s5:checked ~ #slide2 {
+  box-shadow: 0 1px 4px rgba(0,0,0, 0.4);
+  transform: translate3d(40%, 0, -250px);
+}
+
+#s1:checked ~ #slide5,
+ #s2:checked ~ #slide1,
+  #s3:checked ~ #slide2,
+   #s4:checked ~ #slide3,
+    #s5:checked ~ #slide4 {
+  box-shadow: 0 6px 10px rgba(0,0,0, 0.3), 0 2px 2px rgba(0,0,0, 0.2);
+  transform: translate3d(-20%, 0, -100px);
+}
+#s1:checked ~ #slide4,
+ #s2:checked ~ #slide5,
+  #s3:checked ~ #slide1,
+   #s4:checked ~ #slide2,
+    #s5:checked ~ #slide3 {
+  box-shadow: 0 1px 4px rgba(0,0,0, 0.4);
+  transform: translate3d(-40%, 0, -250px);
+}
+.contact{
+  background-color:  #0e1012;
+}
+.login{
+  border-radius: 20px;
+  padding: 7px;
+  
+}
+.letecode{
+  font-weight: bold;
+  font-size: 25px;
+}
+.footer{
+  margin-top: 50px;
+}
+.footer-link {
+  text-decoration: none;
+  color:  #a0aaba;;
 }

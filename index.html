@@ -1,150 +1,260 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="carousel.css">
+    <script defer src="carousel.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="icons/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="carousel.css">
+    <script src="carousel.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Letecode</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container-fluid">
-        <nav class="navbar navbar-expand-md navbar-dark" style="background-color: black;" >
-            <a href="#" class="navbar-brand">
-            <img src="image/IMG-20220913-WA0013.jpg" width="50">
-            <span style="color: #de258a; font-weight: bold;">Letcode</span> <span class="text-primary font-weight-bold">Community</span>
-            </a>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#menuhamburger">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="menuhamburger">
-                <ul class="navbar-nav m-auto">
-                    <li class="nav-item active">
-                        <a href="#" class="nav-link">Accueil</a>
-                    </li>
-                    <div class="m">
-                       <hr class="bg-secondary">
-                    </div>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">A propos</a>
-                    </li>
-                    <div class="m">
-                        <hr class="bg-secondary">
-                     </div>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Tutoriels <i class="bi bi-code text-light" ></i></a>
-                        
-                    </li>
-                    <div class="m">
-                        <hr class="bg-secondary">
-                     </div>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Blog</a>
-                    </li>
-                    <div class="m">
-                        <hr class="bg-secondary">
-                     </div>
-                    <li class="nav-item ">
-                        <a href="#" class="nav-link">Contact  <i class="bi bi-person-lines-fill  text-light"></i></a>
-                    </li>
-                    <div class="m">
-                        <hr class="bg-secondary">
-                     </div>
-                </ul>
-                <form class="form-inline">
-                    <input class="form-control mr-sm-2 my-2" type="search" placeholder="Recherche ">
-                    <button class="btn btn-primary" type="submit">Rechercher</button>
-                </form>
+      <nav class="navbar navbar-expand-md navbar-dark punga ">
+        <a href="#" class="navbar-brand">
+          <img src="image/IMG-20220913-WA0013.jpg" width="50">
+          <span>Letcode</span>
+        </a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#menuhamburger">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="menuhamburger">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item active">
+              <a href="#" class="nav-link">Accueil</a>
+            </li>
+              
+            <div class="">
+              <hr class="bg-secondary">
             </div>
-        </nav>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link">A propos</a>
+            </li>
+
+            <div class="">
+              <hr class="bg-secondary">
+            </div>
+
+            <li class="nav-item">
+              <div class="nav-item dropdown-hover mx-2">
+                <a href="#" class="nav-link dropdown-hover-button">Tutoriels <i class="bi bi-chevron-down" style="font-size: 10px;"></i></a>
+                <div class="dropdown-hover-content w-50 m-auto">
+                  <div class="row m-auto">
+                    <div class="col-lg-3">
+                      <div class="mb-3">
+                        <h6><a class="" href="#">Programmation Web</a></h6>
+                        <div class="course"><a class=" p-0" href="#">Hml 5</a></div>
+                        <div class="course"><a class=" p-0" href="#">Css 3</a></div>
+                        <div class="course"><a class=" p-0" href="#">Javascript</a></div>
+                        <div class="course"><a class=" p-0" href="#">Bootstrap</a></div>
+                        <div class="course"><a class=" p-0" href="#">Php</a></div>
+                        <div class="course"><a class=" p-0" href="#">Mysql</a></div>
+                        <div class="course"><a class=" p-0" href="#">Laravel</a></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="mb-3">
+                        <h6><a class="colour-2" href="#">Programmation mobile</a></h6>
+                        <div class="course"><a class=" p-0" href="#">Java</a></div>
+                        <div class="course"><a class=" p-0" href="#">Kotlin</a></div>
+                        <div class="course"><a class=" p-0" href="#">Flutter</a></div>
+                        <div class="course"><a class=" p-0" href="#">Swift</a></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="mb-3">
+                        <h6><a class="colour-2" href="#">Cloud</a></h6>
+                        <div class="course"><a class=" p-0" href="#">module 1</a></div>
+                        <div class="course"><a class=" p-0" href="#">module 2</a></div>
+                        <div class="course"><a class=" p-0" href="#">module 3</a></div>
+                        <div class="course"><a class=" p-0" href="#">module 4</a></div>
+                        <div class="course"><a class=" p-0" href="#">module 5</a></div>
+                        <div class="course"><a class=" p-0" href="#">module 6</a></div>
+                        <div class="course"><a class=" p-0" href="#">module 7</a></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="mb-3">
+                        <h6><a class="colour-2" href="#">Autres</a></h6>
+                        <div class="course"><a href="#">Infographie</a></div>
+                        <div class="course"><a href="#">base de données</a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </li>
+
+            <div class="">
+              <hr class="bg-secondary">
+            </div>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link">Blog</a>
+            </li>
+
+            <div class="">
+              <hr class="bg-secondary">
+            </div>
+
+            <li class="nav-item ">
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+
+            <div class="">
+              <hr class="bg-secondary">
+            </div>
+          </ul>
+          <div>
+            <a href="#" class="mr-3 text-light text-decoration-none">Log in</a>
+            <a href="#" class="submit text-decoration-none">Sign up</a>
+          </div>
+        </div>
+      </nav>
     </div>
     <div class="container">
-        <div class="head">
-            <h1 class="text-light text-center font-weight-bold">Apprenez et échangez sans limite avec <br> la grande communauté Letcode</h1>
+      <div class="row">
+        <div class="col-12 col-lg-6 m-auto">
+          <div class="head">
+            <h1 class="text-light text-center">Apprenez et échangez sans limite avec <br> la grande communauté Letcode</h1>
+          </div>
         </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-lg-6 m-auto">
+          <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro repudiandae voluptas fugit minus velit optio fuga repellendus molestiae quibusdam autem est pariatur necessitatibus provident excepturi, </p>
+        </div>
+      </div>
     </div>
-    <div class="begin mb-5">
-        <a href="#" class="bg-primary text-light  rounded text-decoration-none">commencer maintenant</a>
+    <div class="begin">
+      <a href="#" class=" btn bg-primary text-light text-decoration-none ">commencer</a>
     </div>
-    <div id="carouselControls" class="carousel slide" data-ride="carousel"> 
-        <div class="carousel-inner"> 
-           <div class="carousel-item active">
-                <img src="image/pexels-tima-miroshnichenko-5702388.jpg" alt="" class="w-100">
-           </div>
-           <div class="carousel-item ">
-                <img src="image/laptop-g4f7506108_1920.jpg" alt="" class="w-100">
-           </div>
-           <div class="carousel-item ">
-                <img src="image/pexels-tima-miroshnichenko-5702416.jpg" alt="" class="w-100">
-            </div>
-        </div> 
-        <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev"> 
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span> 
-            <span class="sr-only">Précédent</span> 
-        </a> 
-        <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next"> 
-            <span class="carousel-control-next-icon" aria-hidden="true"></span> 
-            <span class="sr-only">Suivant</span> 
-        </a> 
+    <section id="slider">
+      <input type="radio" name="slider" id="s1" checked>
+      <input type="radio" name="slider" id="s2" >
+      <input type="radio" name="slider" id="s3" >
+      <input type="radio" name="slider" id="s4" >
+      <input type="radio" name="slider" id="s5" >
+
+      <label for="s1" id="slide1"><img src="image/pexels-tima-miroshnichenko-5702388.jpg" alt=""></label>
+      <label for="s2" id="slide2"><img src="image/apprenant.jpg" alt=""></label>
+      <label for="s3" id="slide3"><img src="image/apprenant2.jpg" alt=""></label>
+      <label for="s4" id="slide4"><img src="image/laptop-g4f7506108_1920.jpg" alt=""></label>
+      <label for="s5" id="slide5"><img src="image/pexels-anna-shvets-4226140.jpg" alt=""></label>
+  </section>
+    <div class="container">
+      <div class="row mb-2">
+        <div class="col-12 col-lg-5">
+          <h2>Qui sommes-nous?</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse suscipit pariatur soluta blanditiis repellat voluptatem, voluptatibus non repellendus error molestias accusantium delectus. Nisi dolorum magni ullam unde labore laudantium. Quae.</p>
+          <button class=" btn text-light  p-1 my-2 border border-secondary"><span class="texte">En savoir plus </span> <i class="bi bi-arrow-right"></i></button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 col-lg-6  image">
+          <img src="image/pexels-tima-miroshnichenko-5702416.jpg" alt="" class="w-100">
+        </div>
+        <div class="col-6 col-lg-6 image" >
+          <img src="image/pexels-andrew-neel-2312369.jpg" alt="" class="w-100">
+        </div>
+      </div>
+      <div class="row" style="margin-top: 100px;">
+        <div class="col-12 col-lg-7 image">
+          <img src="image/pexels-yan-krukov-4458421.jpg" alt="" class="w-100">
+        </div>
+        <div class="col-12 col-lg-5 my-5 image">
+          <h2>Letecode community</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse suscipit pariatur soluta blanditiis repellat voluptatem, voluptatibus non repellendus error molestias accusantium delectus. Nisi dolorum magni ullam unde labore laudantium. Quae.</p>
+          <button class=" btn text-light  p-1 my-2 border border-secondary"><span class="texte">En savoir plus </span> <i class="bi bi-arrow-right"></i></button>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-12 col-lg-6">
+          <h2>Letecode academy</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur in vel nemo deleniti consequatur. A ab magnam libero harum unde deserunt, expedita excepturi ex. Esse dicta eligendi itaque quibusdam quisquam!</p>
+          <button class=" btn text-light  p-1 my-2 border border-secondary"><span class="texte">En savoir plus </span> <i class="bi bi-arrow-right"></i></button>
+        </div>
+        
+      </div>
+      
     </div>
-    
     <div class="container-fluid mt-5">
-        <div class="row">
-            
-            <div class="col-12 col-lg-6">
-                <h1 class="text-primary">Qui sommes-nous?</h1>
-                <p class="text-light">
-                    <span class="font-weight-bold">Letecode community</span> est une communauté d'échange entre developpeurs de tout niveau,pour une seule but s'entaider ,s'epanouir ensemble et apprendre des autres.
-                    une communauté des developpeurs qui grandissent en force et en competences, developper des outils ensemble, partager des plus amples informations des nouveautés et experiences au travers des meetups et hachaton.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti veniam magni accusantium at pariatur sit, est numquam sapiente dicta illo vel facere accusamus! Sit, quas? Dicta commodi asperiores aut perferendis.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum consequuntur exercitationem molestias eaque nisi rerum nobis! Velit veritatis facilis magni odit possimus nemo! Assumenda, repellendus sint dolorem a nesciunt quisquam.
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, iure id? Asperiores voluptatem, deserunt reiciendis totam similique fuga recusandae nemo enim porro ex doloribus a nam quod facilis aut autem.
-                </p>
-                <button class="bg-primary text-light rounded p-1 my-2">En savoir plus <i class="bi bi-arrow-right"></i></button>
-            </div>
-            <div class="col-12 col-lg-6">
-                <img src="image/2205_w037_n003_390b_p1_390.jpg" alt="" class="w-100">
-            </div>
+      <div class="row mb-5">
+        <div class="col-12">
+          <img src="image/pexels-emily-ranquist-1205651.jpg" alt="" class="w-100">
         </div>
+      </div>
     </div>
-    <div class="container-fluid">
-        <div class="container-fluid mt-5">
-            <div class="row">
-                <div class="col-12 col-lg-6">
-                    <img src="image/pexels-yan-krukov-4458411.jpg" alt="" class="w-100">
-                </div>
-                <div class="col-12 col-lg-6">
-                    <h1 class="text-primary">Rencontrez-vous des difficultés?</h1>
-                    <p class="text-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, hic laudantium placeat quasi reiciendis esse! Facere doloremque, quibusdam libero vero eveniet officiis fugiat sint, odio accusantium ab obcaecati quisquam cum!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi assumenda laudantium autem officia quam praesentium veniam sapiente vel. Minima placeat explicabo officiis a! Ipsum placeat ex, eveniet a reiciendis reprehenderit.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime consequatur sequi voluptas necessitatibus labore, voluptates incidunt esse eveniet inventore obcaecati hic ratione autem officia fuga, eum velit deserunt quas error?
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, ducimus! Quod facere vitae eos suscipit alias iusto, totam debitis accusantium cum obcaecati reiciendis ut! Facilis eveniet quia iste temporibus obcaecati.
-                    </p>
-                    <button class="bg-primary text-light rounded p-1 my-2">En savoir plus <i class="bi bi-arrow-right"></i></button>
-                </div>
-            </div>  
+    <div class="container rounded" style="background-color: #161a1d;">
+      <div class="row">
+        <div class="col-12 mt-5">
+          <h2 class="text-center">Prêt à commencer?</h2>
         </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <div class="d-flex flex-column flex-md-row justify-content-center">
+        <a href="#" class="mr-3 border border-secondary  mb-3 text-decoration-none text-center bg-primary text-light login">commencer maintenant</a>
+        <a href="#" class="mr-3 text-light border border-secondary  mb-3 text-decoration-none text-center contact login">plus d'informations</a>
+      </div>
     </div>
-    <div class="container-fluid  mt-5">
-        <div class="row">
-            <div class="col-12 col-lg-6">
-                <img src="image/pexels-anna-shvets-4226140.jpg" alt="" class="w-100">
-            </div>
-            <div class="col-12 col-lg-6">
-                <h1 class="text-primary">Echangez avec les autres</h1>
-                <p class="text-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, hic laudantium placeat quasi reiciendis esse! Facere doloremque, quibusdam libero vero eveniet officiis fugiat sint, odio accusantium ab obcaecati quisquam cum!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi assumenda laudantium autem officia quam praesentium veniam sapiente vel. Minima placeat explicabo officiis a! Ipsum placeat ex, eveniet a reiciendis reprehenderit.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime consequatur sequi voluptas necessitatibus labore, voluptates incidunt esse eveniet inventore obcaecati hic ratione autem officia fuga, eum velit deserunt quas error?
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, ducimus! Quod facere vitae eos suscipit alias iusto, totam debitis accusantium cum obcaecati reiciendis ut! Facilis eveniet quia iste temporibus obcaecati.
-                </p>
-                <button class="bg-primary text-light rounded p-1 my-2">En savoir plus <i class="bi bi-arrow-right"></i></button>
-            </div>
-        </div>  
+    <div class="container footer">
+      <div class="row">
+        <div class="col-6 col-lg-3">
+          <span class="letecode">Letcode</span>
+        </div>
+      </div>
+      <div class="row mt-3 mb-5">
+        <div class="col-6 col-lg-4">
+          <p class="text-light">Actualités</p>
+          <div><a href="#" class="footer-link text-decoration-none">Fleet</a></div>
+          <div><a href="#" class="footer-link text-decoration-none">Address Autofill</a></div>
+          <div><a href="#" class="footer-link text-decoration-none">Search</a></div>
+          <div><a href="#" class="footer-link text-decoration-none">Data</a></div>
+          
+        </div>
+        <div class="col-6 col-lg-4">
+          <p class="text-light">formation</p>
+          <div><a href="#" class="footer-link text-decoration-none">developpement web</a></div>
+          <div><a href="#" class="footer-link text-decoration-none">developpement mobile</a></div>
+          <div><a href="#" class="footer-link text-decoration-none">developpement logiciel</a></div>
+          <div><a href="#" class="footer-link text-decoration-none">base de donées</a></div>
+        </div>
+        <div class="col-12 col-lg-4">
+          <p class="text-light my-2">developpeur</p>
+          <div><a href="#" class="footer-link text-decoration-none">Documentation</a></div>
+          <div><a href="#" class="footer-link text-decoration-none">Tutorials</a></div>
+          <div><a href="#" class="footer-link text-decoration-none">Troubleshooting</a></div>
+          <div><a href="#" class="footer-link text-decoration-none">Developer Networks</a></div>
+        </div>
+      </div>
     </div>
-   
+    <div class="container d-block d-md-flex justify-content-between ">
+      <div class="d-flex flex-row  flex-md-row">
+        <a href="#" class="mr-2 footer-link text-decoration-none">@ Letecode</a>
+        <a href="#" class="mr-2 footer-link text-decoration-none">Terms</a>
+        <a href="#" class="mr-2 footer-link text-decoration-none">Privacy</a>
+        <a href="#" class="mr-2 footer-link text-decoration-none">Security</a>
+      </div>
+      <div class="d-flex flex-row flex-md-row">
+        <a href="#" class="mr-2 footer-link text-decoration-none"><i class="bi bi-github"></i></a>
+        <a href="#" class="mr-2 footer-link text-decoration-none"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="mr-2 footer-link text-decoration-none"><i class="bi bi-linkedin"></i></a>
+        <a href="#" class="mr-2 footer-link text-decoration-none"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="mr-2 footer-link text-decoration-none"><i class="bi bi-instagram"></i></a>
+      </div>
+    </div>
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-</body>
+  </body>
 </html>
